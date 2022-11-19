@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>炫酷nb的99乘法表</title>
+    <style>
+    *{background-color: aqua ; text-align: left ; margin:100px ;}
+         
+    </style>
+</head>
+<body>
+  <button id="nb" onclick="giao()">点我生成狂拽nb炫酷的99乘法表</button>
+      <script>
+      var nb = document.getElementById("nb")
+       function giao(){for(var r=1;r<=9;r++){var chart="";for(var c=1;c<=r;c++){chart+=(`${c}*${r}=${c*r}\t`);}document.write(chart+"<br>");}}
+
+        </script>
+    
+</body>
+</html>
